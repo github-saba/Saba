@@ -32,7 +32,8 @@
         color: #2c3e50;
     }
     ul { padding-left: 20px; }
-    .date { float: right; color: #666; }
+    .item {display: flex; justify-content: space-between; align-items: center;}
+    .date {color: #666; white-space: nowrap;}
     .job-title { font-weight: bold; }
     .company { font-style: italic; }
     .skills span {
@@ -122,9 +123,11 @@ Strong understanding of system architecture, performance optimization, and secur
 <h2>Professional Experience</h2>
 
 <p>
+<div class="item">    
 <span class="job-title">Telecom Technical Services Manager</span>
 <span class="date">Jan 2014 – Present</span><br>
 <span class="company">Switchware Ltd, London, UK</span>
+</div>
 </p>
 <ul>
 <li>Lead technical operations across 23 countries.</li>
